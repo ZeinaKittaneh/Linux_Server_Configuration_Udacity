@@ -25,7 +25,7 @@ The database server is PostgreSQL.
     3. change the permissions of the key using:
     `chmod 600 ~/.ssh/serverKey.rsa`
     4. Connect to the instance via:
-    `ssh -i ~/.ssh/serverKey.rsa ubuntu@35.183.105.8 where 35.183.105.8 is the public IP address` of the instance.
+    `ssh -i ~/.ssh/serverKey.rsa ubuntu@35.183.105.8` where `35.183.105.8` is the public IP address of the instance.
 
 ## 2. Secure the server:
 1) Update all currently installed packages:
