@@ -21,11 +21,11 @@ This project is the fifth project of FSND, it aims to configure a linux server t
     https://lightsail.aws.amazon.com/
 * Configure ssh access to the instance:
     1. Download the private key: from the amazon lightsail "account" menu click the SSH keys to download the key.
-    2. Copy the key from the file you downloaded, then create a file in the ` ~/.ssh `, call it serverKey.rsa and paste the private key there.
+    2. Copy the key from the file you downloaded, then create a file in the ` ~/.ssh `, call it server_key.rsa and paste the private key there.
     3. change the permissions of the key using:
-    `chmod 600 ~/.ssh/serverKey.rsa`
+    `chmod 600 ~/.ssh/server_key`
     4. Connect to the instance via:
-    `ssh -i ~/.ssh/serverKey.rsa ubuntu@35.183.105.8` where `35.183.105.8` is the public IP address of the instance.
+    `ssh -i ~/.ssh/server_key ubuntu@35.183.105.8` where `35.183.105.8` is the public IP address of the instance.
 
 ## 2. Secure the server:
 1) Update all currently installed packages:
