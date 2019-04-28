@@ -2,9 +2,9 @@
 This project is the fifth project of FSND, it aims to configure a linux server to host the itemCatalog App which was created earlier in this Nano Degree:
 
 ## Server details:
-server used is an Amazon Lightsail server, with Ubuntu `18.04` OS.
-public server IP address: http://35.183.105.8 
-The database server is PostgreSQL.
+* server used is an Amazon Lightsail server, with Ubuntu `18.04` OS.
+* The website is deployed on: http://35.183.105.8 
+* The database server is PostgreSQL.
 
 ## Main Tasks:
 1. Configure Ubuntu Linux server instance on Amazon Lightsail.
