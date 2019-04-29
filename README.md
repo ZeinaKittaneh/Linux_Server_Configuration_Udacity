@@ -54,6 +54,10 @@ This project is the fifth project of FSND, it aims to configure a linux server t
     * Finally, check the status of the firewall: `sudo ufw status`, the output should show the ports we allowed and denied.
     * From the Amazon Lightsail Instance page, got to the Networking tab, change the configuration to match our firewall settings we've made before.
 
+4) Don't allow root to login remotely:
+    * Edit etc/ssh/sshd_config file via: `sudo nano /etc/ssh/sshd_config`.
+    * Change the PermitRootLogin to "no"
+    
 ## 3. Create grader user with sudo permissions:
 1) Create a new user called "grader":
 `sudo adduser grader`
